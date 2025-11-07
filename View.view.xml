@@ -1,0 +1,235 @@
+<mvc:View
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    width="100%"
+    controllerName="com.winslow.HRDocumentation.Card"
+>  
+        <FlexBox
+            wrap="Wrap"
+            justifyContent="Center"
+            class="tileFlexBox"
+            backgroundDesign="Transparent"
+        >
+            <GenericTile
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginTop sapUiSmallMarginBottom"
+                frameType="TwoByHalf"
+                header="WINBMS-SP-04-A – Human Resources Manual"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginTop sapUiSmallMarginBottom"
+                header="WINBMS-SP-04-A-12.1 – Personnel Training Plan"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginTop sapUiSmallMarginBottom"
+                header="WINBMS-SP-04-A-13.1 – Working from Home Procedure"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-13.3 – WFH Arrangement – Self"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-13.4 – Employee Risk Assessment Form"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-5.1.1 – Workshop Personnel Induction"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.1 – Authority to Hire"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.2 – Role Description Template"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.3 – Job Advertisement"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.5 – Interview Confirmation"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.6 – Interview Guide"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-1.8 – Driver Evaluation Questionnaire"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-10.1 – Personal Vehicle Use Expense Claim"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-10.2 – Entertainment Expense Claim"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-10.4 – Wage Deduction Authority"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-10.5 – Travel Request"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-12.2 – Record of Training"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-2.1 - Employment Offer Summary"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.2 – Vehicle Rental Request"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.1 – Employee Asset Request"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.3 – Asset Acceptance"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.4 – Cash Advance Policy"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.5 – Uniform Request"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.6 – Induction Kit"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.7 – Tool Kit"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-3.8 – Rate Adjustment"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.1 – Employee Health and Safety Handbook"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.2 – Health and Safety Induction Presentation"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.3 – Health and Safety Induction Questionnaire"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.4 – Personal Protective Equipment Register"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.6 – Timesheet"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.8 – Personal Details"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-4.9 – Supervisor Timesheet"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-5.2 – Office Induction Checklist"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-6.1 – Probation Review – Labourers and Operators"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-6.2 – Key Result Area Establishment"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-6.3 – Performance Appraisal"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-7.2 – Performance Development Plan"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiSmallMarginTopBottom"
+                header="WINBMS-SP-04-A-8.1 – Leave Request"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginBottom sapUiSmallMarginTop"
+                header="WINBMS-SP-04-A-8.2 – Parental Leave Notification"
+            />
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginBottom sapUiSmallMarginTop"
+                header="WINBMS-SP-04-A-8.3 – Parental Leave Checklist"
+            />
+
+            <GenericTile
+                frameType="TwoByHalf"
+                class="sapUiTinyMarginBeginEnd sapUiLargeMarginBottom sapUiSmallMarginTop"
+                header="WINBMS-SP-04-A-9.2 – Exit Interview"
+            />
+        </FlexBox>
+    
+</mvc:View>
