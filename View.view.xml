@@ -6,7 +6,27 @@
     width="100%"
     controllerName="com.winslow.HRDocumentation.Card"
 >  
-        <FlexBox
+
+<FlexBox
+    wrap="Wrap"
+    justifyContent="SpaceAround"
+    class="tileFlexBox"
+    backgroundDesign="Transparent"
+    items="{
+        path: 'tiles>/tiles'
+    }">
+
+    <GenericTile
+        class="sapUiTinyMarginBeginEnd sapUiSmallMarginTop sapUiSmallMarginBottom"
+        frameType="TwoByHalf"
+        header="{tiles>title}"
+        press="onTilePress"
+    />
+
+</FlexBox>
+
+
+        <!-- <FlexBox
             wrap="Wrap"
             justifyContent="Center"
             class="tileFlexBox"
@@ -16,6 +36,7 @@
                 class="sapUiTinyMarginBeginEnd sapUiLargeMarginTop sapUiSmallMarginBottom"
                 frameType="TwoByHalf"
                 header="WINBMS-SP-04-A – Human Resources Manual"
+                
             />
             <GenericTile
                 frameType="TwoByHalf"
@@ -231,5 +252,5 @@
                 header="WINBMS-SP-04-A-9.2 – Exit Interview"
             />
         </FlexBox>
-    
+     -->
 </mvc:View>
