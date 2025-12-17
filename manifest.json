@@ -1,7 +1,7 @@
 {
 	"_version": "1.15.0",
 	"sap.app": {
-		"id": "com.winslow.HRDocumentation",
+		"id": "com.winslow.yve.HRDocumentation",
 		"type": "card",
 		"title": "HR Documentation",
 		"subTitle": "",
@@ -18,7 +18,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "com.winslow.HRDocumentation.View",
+			"viewName": "com.winslow.yve.HRDocumentation.View",
 			"type": "XML",
 			"async": true,
 			"id": "app"

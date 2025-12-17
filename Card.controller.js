@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (MessageToast, Controller, JSONModel) {
 	"use strict";
 
-	return Controller.extend("com.winslow.HRDocumentation.Card", {
+	return Controller.extend("com.winslow.yve.HRDocumentation.Card", {
 		onInit: function () {
 			this.TileData = [
 				{ type: "HR Documentation", title: "WINBMS-SP-04-A – Human Resources Manual", url: "https://winslow50.sharepoint.com/support-services/HR/Documents/WINBMS-SP-04-A%20Human%20Resources%20Manual.pdf" },

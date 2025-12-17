@@ -5,7 +5,7 @@ sap.ui.define([
 	function (UIComponent,ODataModel) {
 		"use strict";
 
-		var Component = UIComponent.extend("com.winslow.HRDocumentation.Component", {
+		var Component = UIComponent.extend("com.winslow.yve.HRDocumentation.Component", {
 
 			metadata: {
 				manifest: "json"

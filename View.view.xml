@@ -4,7 +4,7 @@
     xmlns="sap.m"
     xmlns:html="http://www.w3.org/1999/xhtml"
     width="100%"
-    controllerName="com.winslow.HRDocumentation.Card"
+    controllerName="com.winslow.yve.HRDocumentation.Card"
 >  
 
 <FlexBox
