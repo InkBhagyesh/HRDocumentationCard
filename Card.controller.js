@@ -90,7 +90,8 @@ sap.ui.define([
 				}.bind(this));
 			}
 		},
-		onTilePress: function (oEvent) {
+		
+		onPressCard: function (oEvent) {
 			debugger;
 			const ctx = oEvent.getSource().getBindingContext("tiles");
 			const url = ctx.getProperty("url");

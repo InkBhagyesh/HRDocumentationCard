@@ -5,26 +5,18 @@
     xmlns:html="http://www.w3.org/1999/xhtml"
     width="100%"
     controllerName="com.winslow.yve.HRDocumentation.Card"
+    busyIndicatorDelay="0"
 >  
 
-<FlexBox
-    wrap="Wrap"
-    justifyContent="SpaceAround"
-    class="tileFlexBox"
-    backgroundDesign="Transparent"
-    items="{
-        path: 'tiles>/tiles'
-    }">
+    <VBox class="sapUiSmallMargin">
+        <FlexBox id="myClickableVBox" wrap="Wrap" justifyContent="Start" alignItems="Stretch" width="100%" items="{path: 'tiles>/tiles'}">
 
-    <GenericTile
-        class="sapUiTinyMarginBeginEnd sapUiSmallMarginTop sapUiSmallMarginBottom"
-        frameType="TwoByHalf"
-        header="{tiles>title}"
-        press="onTilePress"
-    />
-
-</FlexBox>
-
+            <VBox class="customBox" >
+                <Link text="{tiles>title}" wrapping="true" class="boxText sapUiTinyMargin" press="onPressCard"/>            
+            </VBox>
+            
+        </FlexBox>
+    </VBox>
 
         <!-- <FlexBox
             wrap="Wrap"

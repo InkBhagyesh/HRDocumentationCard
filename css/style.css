@@ -1,0 +1,50 @@
+.customBox {
+    width: 32%;
+    min-height: 90px;
+    background-color: #888B8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    box-sizing: border-box;
+    cursor: pointer !important;
+}
+
+@media (max-width: 1024px) {
+    .customBox {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .customBox {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+.boxText {
+    font-size: larger !important;
+    font-weight: bolder !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.customBox:hover {
+    background-color: #64CCC9 !important;
+}
+
+.boxText .sapMLnkText {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+}
+.customBox:hover .boxText .sapMLnkText {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+}
+.boldText {
+    font-weight: bold;
+    cursor: pointer;
+}
