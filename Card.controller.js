@@ -7,6 +7,15 @@ sap.ui.define([
 
 	return Controller.extend("com.winslow.yve.HRDocumentation.Card", {
 		onInit: function () {
+			var oVBox = this.getView().byId("myClickableVBox");
+
+			oVBox.addEventDelegate({
+				onclick: function (oEvent) {
+					// Trigger your logic here
+					this.onPressCard(oEvent);
+				}.bind(this)
+			});
+
 			this.TileData = [
 				{ type: "HR Documentation", title: "WINBMS-SP-04-A – Human Resources Manual", url: "https://winslow50.sharepoint.com/support-services/HR/Documents/WINBMS-SP-04-A%20Human%20Resources%20Manual.pdf" },
 				{ type: "HR Documentation", title: "WINBMS-SP-04-A-12.1 – Personnel Training Plan", url: "https://winslow50.sharepoint.com/support-services/HR/Documents/WINBMS-SP-04-A-%2012.1%20Personnel%20Training%20Plan.docx?d=w1f8a16997e93415ca6b987186e153096" },
@@ -93,7 +102,8 @@ sap.ui.define([
 		
 		onPressCard: function (oEvent) {
 			debugger;
-			const ctx = oEvent.getSource().getBindingContext("tiles");
+			var oControl = oEvent.getSource ? oEvent.getSource() : oEvent.srcControl;
+			const ctx = oControl.getBindingContext("tiles");
 			const url = ctx.getProperty("url");
 
 			if (url) {

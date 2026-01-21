@@ -12,7 +12,7 @@
         <FlexBox id="myClickableVBox" wrap="Wrap" justifyContent="Start" alignItems="Stretch" width="100%" items="{path: 'tiles>/tiles'}">
 
             <VBox class="customBox" >
-                <Link text="{tiles>title}" wrapping="true" class="boxText sapUiTinyMargin" press="onPressCard"/>            
+                <Link text="{tiles>title}" wrapping="true" class="boxText sapUiTinyMargin"/>            
             </VBox>
             
         </FlexBox>
