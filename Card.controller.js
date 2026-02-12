@@ -84,7 +84,7 @@ sap.ui.define([
 			this._onModelArrival();
 		},
 		_onModelArrival: function () {
-			debugger;
+			// debugger;
 			// Get the model from the Component
 			var oODataModel = this.getOwnerComponent().getModel();
 
@@ -107,7 +107,7 @@ sap.ui.define([
             oModel.callFunction("/getUserRole", {
                 method: "GET",
                 success: function (oData) {
-                    debugger;
+                    // debugger;
                     var role = oData.getUserRole || "Winslow";
 
                     var oFlex = this.byId("myClickableVBox");
@@ -125,7 +125,7 @@ sap.ui.define([
         },
 		
 		onPressCard: function (oEvent) {
-			debugger;
+			// debugger;
 			var oControl = oEvent.getSource ? oEvent.getSource() : oEvent.srcControl;
 			const ctx = oControl.getBindingContext("tiles");
 			const url = ctx.getProperty("url");
@@ -138,22 +138,22 @@ sap.ui.define([
 		},
 
 		_loadData: function () {
-			debugger;
+			// debugger;
 			var url = window.location.href;
 			var id = url.split("workpage_tabs/")[1].split("?")[0];
 			const oView = this.getView();
 			oView.setBusy(true);
 			this.getOwnerComponent().getModel("JAM").read(`/NavTabs('${id}')`, {
 				success: function (oData) {
-					debugger;
+					// debugger;
 					var tileData = this.TileData.filter(i => i.type === oData.Title);
 					let oModel = new JSONModel({ tiles: tileData });
 					this.getView().setModel(oModel, "tiles");
 					oView.setBusy(false);
 				}.bind(this),
 				error: function (oError) {
-					debugger;
-					MessageToast.show("Error fetching NavTabs, check console logs for more details");
+					// debugger;
+					MessageToast.show("No item found with Title");
 					oView.setBusy(false);
 				}
 			});
